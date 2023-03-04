@@ -6,5 +6,5 @@ data = go.Histogram(
 fig = go.Figure(
     data=data,
 )
-fig.write_image()
+fig.write_image("2-4.png")
 fig.show()
